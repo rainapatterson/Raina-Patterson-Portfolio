@@ -1,11 +1,40 @@
+body{
+    background-color: rgb(252, 239, 228);
+    color: #36201d;
+}
+
 /* Custom Navbar/Header CSS */
+.nav-link-color {
+    color: white;
+    background-color: #4e150d;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+
+.nav-link-color:hover {    
+    color: #36201d;
+    background-color: bisque;
+    text-decoration: underline;
+}
+
+.nav-link-text {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 .raina-logo {
     max-height: 80px;
     height: 100%;
 }
 
+.navbar-bg-color{
+    background-color: #ECCBA2;
+}
+
 .raina-name {
     text-decoration: none;
+    color: #4e150d
 }
 /* End of Custom Navbar/Header CSS */
 
