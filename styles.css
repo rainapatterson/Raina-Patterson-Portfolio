@@ -8,3 +8,13 @@
     text-decoration: none;
 }
 /* End of Custom Navbar/Header CSS */
+
+/* Custom Body CSS */
+.raina-headshot {
+    width: 100%
+}
+
+.bio-container {
+    margin-top: 20px;
+}
+/* End of Custom Body CSS */
