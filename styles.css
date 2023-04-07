@@ -42,10 +42,13 @@ body{
 
 /* Custom Body CSS */
 .raina-headshot {
-    width: 100%
+    width: 100%;
+    border-radius: 5px;
 }
 
 .bio-container {
     margin-top: 20px;
 }
+
+
 /* End of Custom Body CSS */
