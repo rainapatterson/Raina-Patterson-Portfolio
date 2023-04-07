@@ -3,6 +3,8 @@
 body{
     background-color: #F2E0D5;
     color: #352F59;
+    margin: 0;
+    padding: 0;
 }
 
 h1{
@@ -121,8 +123,6 @@ h1{
 
 .works-row {
     padding-top: 40px;
-    padding-left: 20px;
-    padding-right: 20px;
     padding-bottom: 40px;
     font-family: "filson-soft", sans-serif;
 	font-weight: 400;
