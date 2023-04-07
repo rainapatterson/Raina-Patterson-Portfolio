@@ -102,6 +102,15 @@ h1{
     font-size: 22px;
 }
 
+.works-bg-color-3 {
+    background-color: #ECCBA2;
+    color: #36201d;
+    font-family: "filson-soft", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+    font-size: 22px;
+}
+
 .works-img {
     width: 100%;
     max-width: 100%;
