@@ -12,7 +12,11 @@ h1{
 	font-weight: 700;
 	font-style: normal;
 }
-
+p{
+    font-family: "filson-soft", sans-serif;
+	font-weight: 500;
+	font-style: normal;
+}
 /* End of Global CSS */
 
 /* Custom Navbar/Header CSS */
