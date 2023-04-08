@@ -46,6 +46,34 @@ h1{
     height: 100%;
 }
 
+@media (max-width: 425px) {
+    .raina-logo{
+        max-height: 60px;
+        height: 100%;
+    }
+
+    h1{
+        font-family: "filson-soft", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 375px) {
+    .raina-logo{
+        max-height: 40px;
+        height: 100%;
+    }
+
+    h1{
+        font-family: "filson-soft", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 20px;
+    }
+}
+
 .navbar-bg-color{
     background-color: #F2C4B3;
 }
@@ -74,6 +102,12 @@ h1{
 
 .intro-h2{
     font-size: 60px;
+}
+
+@media (max-width: 320px) {
+    .intro-h2{
+        font-size: 50px;
+    }
 }
 
 .intro-p{
