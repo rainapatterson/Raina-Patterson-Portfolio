@@ -303,6 +303,44 @@ small{
     color: #352f59;
 }
 
+@media (max-width: 1023px) {
+    .contact-icon {
+        display: none;
+    }
+}
+
+@media (max-width: 1440px) {
+    .contact-line {
+        font-size: 16px;
+        color: #352f59;
+    }
+
+    .about-title{
+        margin-top: 16px;
+        font-size: 20px;
+        font-family: "filson-soft", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+    }
+
+    .download {
+        font-family: "filson-soft", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 16px;
+        border: 1px solid #9795a4;
+        background-color: #A6496B;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-top: 10px;
+    }
+}
+
 /* end of about me CSS */
 /* End of Custom Body CSS */
 
