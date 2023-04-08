@@ -168,9 +168,20 @@ h1{
 /* End of Custom Body CSS */
 
 /* Start of Footer CSS */
+@media (min-width: 768px) {
+    .footer-contact-info {
+        text-align: center;
+    }
+    
+    .social-media-links {
+        text-align: right;
+    }    
+}
+
 .footer-icons{
     color: #352f59;
 }
+
 small{
     font-size: 16px;
 }
