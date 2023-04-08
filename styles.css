@@ -91,9 +91,9 @@ h1{
 /* intro */
 .raina-headshot {
     width: 100%;
+    border: 3px solid #F2BB9B;
     border-radius: 5px;
-    border: 10px solid #352F59;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 .intro-container {
@@ -112,7 +112,12 @@ h1{
         font-size: 50px;
     }
 }
-
+@media (max-width: 574px ) {
+    .raina-headshot{
+        margin-top: 20px;
+    }
+    
+}
 .intro-p{
     font-size: 24px;
 }
