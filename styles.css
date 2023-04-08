@@ -247,6 +247,12 @@ h1{
 /* end of project example css */
 
 /* start of about me CSS */
+.raina-headshot2 {
+    width: 100%;
+    border: 3px solid #F2BB9B;
+    border-radius: 5px;
+    margin-top: 20px;
+}
 .about-me-connect {
     text-align: center;
 }
