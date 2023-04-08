@@ -355,9 +355,13 @@ small{
     }    
 }
 
-.footer-icons{
-    color: #352f59;
+.footer-colors {
+    background-color: #352F59;
+    color: white;
 }
 
+.footer-icons{
+    color: white;
+}
 
 /* End of Footer CSS */
