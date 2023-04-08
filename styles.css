@@ -241,9 +241,62 @@ h1{
 }
 /* end of project example css */
 
-/* About me CSS */
+/* start of about me CSS */
 .about-me-connect {
     text-align: center;
+}
+
+.about-title{
+    margin-top: 20px;
+    font-family: "filson-soft", sans-serif;
+	font-weight: 500;
+	font-style: normal;
+}
+
+.about-p p{
+    font-family: "filson-soft", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.connect-cta{
+    font-family: "filson-soft", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 24px;
+    margin-top: 20px;
+}
+.download{
+    font-family: "filson-soft", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    border: 1px solid #352F59;
+    background-color: #A6496B;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 10px;
+}
+.download:hover{
+    border: 1px solid #352F59;
+    background-color: #f4ece7;
+    color: #352f59;
+    text-decoration: underline;
+}
+small{
+    font-size: 16px;
+}
+
+.about-connect-icons{
+    color: #352f59;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 /* end of about me CSS */
 /* End of Custom Body CSS */
@@ -263,7 +316,5 @@ h1{
     color: #352f59;
 }
 
-small{
-    font-size: 16px;
-}
+
 /* End of Footer CSS */
