@@ -232,6 +232,13 @@ p{
 /* start of project example css */
 .works-page-title {
     padding-top: 10px;
+    margin-top: 20px;
+}
+.works-page-sub-title{
+    font-family: "filson-soft", sans-serif;
+	font-weight: 500;
+	font-style: normal;
+    font-size: 40px;
 }
 
 .works-page-link {
@@ -248,6 +255,23 @@ p{
 
 .works-example-card {
     margin-top: 20px;
+}
+
+/* card styles */
+.card-title{
+    font-family: "filson-soft", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color:#352F59;
+}
+.card-text{
+    color:#352F59;
+    font-size: 18px;
+}
+.card-tools{
+    color: #352F59;
+    padding-top: 10px;
+    font-size: 14px;
 }
 /* end of project example css */
 
