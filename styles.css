@@ -291,14 +291,23 @@ p{
     font-family: "filson-soft", sans-serif;
 	font-weight: 500;
 	font-style: normal;
+    font-size: 40px;
 }
 .about-sub-title{
     font-family: "filson-soft", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+    font-size: 30px;
+
+}
+.about-sections{
+    font-family: "filson-soft", sans-serif;
 	font-weight: 500;
 	font-style: normal;
+    margin-top: 30px;
+    text-decoration: underline;
 }
-
-.about-p p{
+.about-p{
     font-family: "filson-soft", sans-serif;
     font-weight: 400;
     font-style: normal;
