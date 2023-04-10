@@ -230,6 +230,10 @@ p{
 
 
 /* start of project example css */
+.project-link, .about-link{
+    color:#A6496B;
+}
+
 .works-page-title {
     padding-top: 10px;
     margin-top: 20px;
