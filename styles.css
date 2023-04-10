@@ -273,6 +273,18 @@ p{
     padding-top: 10px;
     font-size: 14px;
 }
+
+.suzanne-collins-card-img {
+    height: 540px;
+}
+
+@media (max-width: 540px) {
+    .suzanne-collins-card-img {
+        height: 200px;
+    }
+} 
+
+
 /* end of project example css */
 
 /* start of about me CSS */
