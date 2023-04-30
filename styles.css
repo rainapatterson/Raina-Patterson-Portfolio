@@ -88,9 +88,20 @@ p{
     color: #352F59;
 }
 
+.dropdown-item{
+    font-family: "filson-soft", sans-serif;
+	font-weight: 500;
+	font-style: normal;
+    color: #352F59;
+}
+.dropdown-item:hover{
+    background-color: #F2BB9B;
+}
+
 /* End of Custom Navbar/Header CSS */
 
 /* Custom Body CSS */
+
 
 /* intro */
 .raina-headshot {
@@ -126,6 +137,7 @@ p{
 .intro-p{
     font-size: 24px;
 }
+
 
 /* scroll down arrow */
 .arrow-down{
@@ -202,16 +214,20 @@ p{
         display: none;
     }
   }
+
+
 /* works */
 .works-title {
     margin: 0;
+    padding-top: 20px;
     padding-bottom: 40px;
     padding-left: 20px;
-    font-size: 60px;
+    font-size: 50px;
     font-family: "filson-soft", sans-serif;
     font-weight: 700;
     font-style: normal;
 }
+
 h3{
     font-size: 40px;
 }
