@@ -127,12 +127,93 @@ p{
     font-size: 24px;
 }
 
+/* scroll down arrow */
+.arrow-down{
+    width:60px;
+    height:40px;
+    margin:0 0 0 -30px;
+    position:absolute;
+    left:50%;
+    bottom:0px;
+    -webkit-animation: arrow 0.5s 1s infinite ease-out alternate;
+    
+  }
+  
+  .arrow-down:hover{
+     -webkit-animation-play-state: paused;
+  }
+  
+  .left{
+    position:absolute;
+    height:10px;
+    width:40px;
+    background: #352f59;
+    -webkit-transform:rotate(240deg);
+    top:10px;
+    left:10px;
+    -webkit-border-radius:4px;
+    -webkit-transform-origin:5px 50%;
+    -webkit-animation: leftArrow 0.5s 1s infinite ease-out alternate;
+  }
+  
+  .right{
+    position:absolute;
+    height:10px;
+    width:40px;
+    background: #352F59;
+    -webkit-transform:rotate(-60deg);
+    top:10px;
+    left:10px;
+    -webkit-border-radius:4px;
+    -webkit-transform-origin:5px 50%;
+    -webkit-animation: rightArrow 0.5s 1s infinite ease-out alternate;
+  }
+  
+  
+  
+  
+  @-webkit-keyframes arrow{
+    0% {
+      bottom:0px;
+    }
+    100%{
+      bottom:40px;
+    }
+  }
+  
+  
+  @-webkit-keyframes leftArrow{
+    0% {
+    }
+    100%{
+      -webkit-transform:rotate(225deg);
+    }
+  }
+  
+  @-webkit-keyframes rightArrow{
+    0% {
+    }
+    100%{
+      -webkit-transform:rotate(-45deg);
+    }
+  }
+  @media (max-width: 1400px) {
+    .arrow-down{
+        display: none;
+    }
+  }
 /* works */
 .works-title {
     margin: 0;
     padding-bottom: 40px;
     padding-left: 20px;
-    font-size: 50px;
+    font-size: 60px;
+    font-family: "filson-soft", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+h3{
+    font-size: 40px;
 }
 .works-bg-color {
     background-color: #F2BB9B;
@@ -305,13 +386,6 @@ p{
 	font-style: normal;
     font-size: 40px;
 }
-.about-sub-title{
-    font-family: "filson-soft", sans-serif;
-	font-weight: 400;
-	font-style: normal;
-    font-size: 30px;
-
-}
 .about-sections{
     font-family: "filson-soft", sans-serif;
 	font-weight: 500;
@@ -383,7 +457,7 @@ small{
 
     .about-title{
         margin-top: 16px;
-        font-size: 20px;
+        font-size: 26px;
         font-family: "filson-soft", sans-serif;
         font-weight: 500;
         font-style: normal;
