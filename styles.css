@@ -104,10 +104,9 @@ p{
 
 
 /* intro */
-.raina-headshot {
+.raina-headshot{
     width: 100%;
-    border: 3px solid #F2BB9B;
-    border-radius: 5px;
+    border-radius: 10px;
     margin-top: 40px;
     padding: 5px;
 }
@@ -135,7 +134,7 @@ p{
     
 }
 .intro-p{
-    font-size: 24px;
+    font-size: 28px;
 }
 
 
@@ -387,7 +386,7 @@ h3{
 /* start of about me CSS */
 .raina-headshot2 {
     width: 100%;
-    border-radius: 5px;
+    border-radius: 10px;
     margin-top: 20px;
 }
 .about-me-connect {
@@ -498,6 +497,9 @@ small{
     }
 }
 
+.pb-pic{
+    width: 50%;
+}
 /* end of about me CSS */
 /* End of Custom Body CSS */
 
